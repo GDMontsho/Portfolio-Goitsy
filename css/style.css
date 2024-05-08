@@ -31,7 +31,7 @@ nav {
   margin: auto;
   padding: 20px 0;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: end;
 }
 
 nav ul li {
@@ -128,9 +128,10 @@ h2::before {
   height: 50%;
   position: absolute;
   left: 65%;
-  bottom: 280px;
+  bottom: 270px;
   border: 2px solid #ff00db;
   border-radius: 50%;
+  box-shadow: 0px 0px 80px 10px #ff00db;
 }
 
 footer {
@@ -163,7 +164,7 @@ footer {
   }
 
   .my-button {
-    display: block;
+    display: none;
   }
 }
 
@@ -181,8 +182,14 @@ footer {
   nav {
     background-color: #5c1653;
   }
+}
 
-  .profile IMG {
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  nav i {
     display: none;
+
+    background-color: #5c1653;
+
+    font-size: 0.5rem;
   }
 }

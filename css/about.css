@@ -74,14 +74,27 @@ main {
 }
 .about-container {
   display: flex;
-  margin: 0;
+  margin-top: 8rem;
 }
 
 .about img {
-  margin-top: 15%;
+  margin-top: 10%;
   height: 80%;
-  padding: 2rem;
-  border-radius: 20%;
+  padding: 3rem;
+
+  box-shadow: 0 11px 15px 5px #ff00db;
+  animation: move-it 6s ease-in-out infinite;
+  transition: all 0ms ease-in-out;
+}
+
+@keyframes move-it {
+  0%,
+  100% {
+    border-radius: 70% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 80%;
+  }
 }
 
 .about-text {
@@ -111,4 +124,15 @@ main {
   text-align: center;
   line-height: 2;
   padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: pink;
+  height: 100px;
+}
+
+footer p {
+  margin-top: 10rem;
 }
