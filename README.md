@@ -8,7 +8,7 @@
 
 ## How the project was made:
 
-### <u> 02 May 2024 </u>
+### <u>:watch: 02 May 2024 </u>
 
 I started with a simple wireframe I sketched on excalidraw. This truly helped me visualise the project and 'put my ideas on paper' before starting to implement the code. Structure is important to my workflow so I made sure to have as much in place before writing the code.
 
