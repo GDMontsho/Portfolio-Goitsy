@@ -12,7 +12,7 @@
 
 body {
   font-size: 62.5%;
-  background-color: #0e131f;
+  background-color: var(--clr-bg);
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
@@ -74,10 +74,10 @@ nav ul a:hover {
   position: absolute;
   top: 120px;
   font-size: 2rem;
-  color: #0e131f;
+  color: var(--clr-bg);
 
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
@@ -93,7 +93,7 @@ nav ul a:hover {
   height: 80%;
   padding: 2rem;
 
-  box-shadow: 0 11px 15px 5px #ff00db;
+  box-shadow: 0 11px 15px 5px var(--clr-primary);
   animation: move-it 6s ease-in-out infinite;
   transition: all 0ms ease-in-out;
 }
@@ -110,26 +110,26 @@ nav ul a:hover {
 .grid-content {
   grid-area: content;
   margin-top: 10%;
-  border-left: 1px solid #ff00db;
+  border-left: 1px solid var(--clr-primary);
 }
 
 .grid-content h2 {
   font-size: 3rem;
-  color: #ff00db;
+  color: var(--clr-primary);
   margin-top: 5rem;
   padding: 2rem;
   text-align: center;
   letter-spacing: 10px;
 }
 .grid-content span {
-  color: #ff00db;
+  color: var(--clr-primary);
   font-size: 2rem;
   font-weight: 200;
 }
 .grid-content p {
-  color: #ff00db;
+  color: var(--clr-primary);
   font-size: 1rem;
-  text-shadow: 0px 0px 80px 10px #ff00db;
+  text-shadow: 0px 0px 80px 10px var(--clr-primary);
   margin: 10px;
   text-align: center;
   line-height: 2;
@@ -163,7 +163,7 @@ nav ul a:hover {
 
   .grid-content h2 {
     -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: #ff00db;
+    -webkit-text-stroke-color: var(--clr-primary);
     text-align: center;
     color: #0e131f;
     font-size: 2rem;

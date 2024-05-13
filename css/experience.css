@@ -12,7 +12,7 @@
 
 body {
   font-size: 62.5%;
-  background-color: #0e131f;
+  background-color: var(--clr-bg);
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
@@ -71,10 +71,10 @@ nav ul a:hover {
   position: absolute;
   top: 100px;
   font-size: 2rem;
-  color: #0e131f;
+  color: var(--clr-bg);
 
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
@@ -88,8 +88,9 @@ nav ul a:hover {
 .grid-quote h3 {
   font-size: 2rem;
   text-align: center;
-  color: #ff00dd;
-  text-shadow: 0 0 87px #ff00db, 0 0 20px #ff00db, 0 0 21px #ff00db;
+  color: var(--clr-primary);
+  text-shadow: 0 0 87px var(--clr-primary), 0 0 20px var(--clr-primary),
+    0 0 21px var(--clr-primary);
 }
 .wrapper {
   display: grid;
@@ -105,7 +106,7 @@ nav ul a:hover {
 .card-container {
   width: 550px;
   height: 550px;
-  background-color: #0e131f;
+  background-color: var(--clr-bg);
   margin: 20px;
 }
 
@@ -135,8 +136,8 @@ nav ul a:hover {
 }
 
 .card-front {
-  background-color: #0e131f;
-  border: 5px solid #ff00db;
+  background-color: var(--clr-bg);
+  border: 5px solid var(--clr-primary);
   border-radius: 10%;
 
   padding: 50px;
@@ -147,16 +148,16 @@ nav ul a:hover {
 @keyframes pulse {
   0%,
   100% {
-    background-color: #0e131f;
+    background-color: var(--clr-bg);
   }
   80% {
-    background-color: #ff00dd;
+    background-color: var(--clr-primary);
     transform: scale(1);
   }
 }
 .card-front:hover {
   border: 3px solid;
-  box-shadow: 0px 0px 80px 10px #ff00db;
+  box-shadow: 0px 0px 80px 10px var(--clr-primary);
 }
 .card-front h3 {
   text-align: center;
@@ -164,22 +165,22 @@ nav ul a:hover {
   margin-top: 150px;
 
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
   text-transform: uppercase;
   font-size: 10rem;
 }
 
 .card-back {
-  background-color: #ff00db;
-  color: white;
+  background-color: var(--clr-primary);
+
   transform: rotateY(180deg);
-  border: 5px solid #0e131f;
+  border: 5px solid var(--clr-bg);
   border-radius: 10%;
   padding: 1.5rem;
 }
 .card-back:hover {
-  border: 3px solid #ff00db;
-  box-shadow: 0px 0px 80px 10px #ff00db;
+  border: 3px solid var(--clr-primary);
+  box-shadow: 0px 0px 80px 10px var(--clr-primary);
 }
 
 .card-back h3 {
@@ -240,7 +241,7 @@ li {
   }
   .grid-experience h2 {
     -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: #ff00db;
+    -webkit-text-stroke-color: var(--clr-primary);
     text-align: center;
     color: #0e131f;
     font-size: 2rem;

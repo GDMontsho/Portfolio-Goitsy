@@ -79,7 +79,7 @@ nav ul a:hover {
 
 .content h1 {
   -webkit-text-stroke: 1.5px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
   text-align: center;
   color: #0e131f;
   font-size: 4rem;
@@ -91,7 +91,7 @@ nav ul a:hover {
   color: var(--clr-primary);
 }
 .content p {
-  color: #0e131f;
+  color: var(--clr-bg);
   line-height: 3rem;
   font-size: 2rem;
   font-weight: 300;
@@ -101,8 +101,8 @@ nav ul a:hover {
 }
 
 .content p:hover {
-  color: #ff00db;
-  box-shadow: 0px 0px 80px 10px #ff00db;
+  color: var(--clr-primary);
+  box-shadow: 0px 0px 80px 10px var(--clr-primary);
   border-radius: 5%;
 }
 
@@ -115,7 +115,7 @@ nav ul a:hover {
   cursor: pointer;
 }
 .content button:hover {
-  box-shadow: 4px 18px 39px #ff00db;
+  box-shadow: 4px 18px 39px var(--clr-primary);
 }
 
 .content button a {
@@ -133,7 +133,7 @@ nav ul a:hover {
 
 .image img {
   border-radius: 50%;
-  box-shadow: 0px 0px 80px 10px #ff00db;
+  box-shadow: 0px 0px 80px 10px var(--clr-primary);
 }
 .icon {
   margin-left: 120px;
@@ -163,9 +163,9 @@ nav ul a:hover {
 
   .content h1 {
     -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: #ff00db;
+    -webkit-text-stroke-color: var(--clr-primary);
     text-align: center;
-    color: #0e131f;
+    color: var(--clr-bg);
     font-size: 2rem;
   }
 

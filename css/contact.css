@@ -12,7 +12,7 @@
 
 body {
   font-size: 62.5%;
-  background-color: #0e131f;
+  background-color: var(--clr-bg);
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
@@ -80,7 +80,7 @@ ul li a {
   color: #0e131f;
 
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
@@ -100,7 +100,8 @@ ul li a {
   background: #f8aaee;
   margin: 0 4px;
   border-radius: 50%;
-  box-shadow: 0 0 7px #ff00db, 0 0 10px #ff00db, 0 0 21px #ff00db;
+  box-shadow: 0 0 7px var(--clr-primary), 0 0 10px var(--clr-primary),
+    0 0 21px var(--clr-primary);
   animation: bubbles 20s linear infinite;
   animation-duration: calc(125s / var(--i));
 }
@@ -134,19 +135,19 @@ ul li a {
 
 .grid-content h3 {
   font-size: 4rem;
-  color: #ff00db;
+  color: var(--clr-primary);
 
   text-align: center;
 }
 .grid-content span {
   color: #0e131f;
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #ff00db;
+  -webkit-text-stroke-color: var(--clr-primary);
 }
 
 .grid-content h2 {
   font-size: 3rem;
-  color: #ff00db;
+  color: var(--clr-primary);
   margin: auto 25%;
   text-align: center;
 }
@@ -159,7 +160,8 @@ ul li a {
   background-color: var(--clr-bg);
   border-radius: 10%;
   height: 200px;
-  box-shadow: 0 0 87px #ff00db, 0 0 20px #ff00db, 0 0 21px #ff00db;
+  box-shadow: 0 0 87px var(--clr-primary), 0 0 20px var(--clr-primary),
+    0 0 21px var(--clr-primary);
 }
 .contact-btn:hover {
   background-color: var(--clr-primary);
@@ -221,7 +223,7 @@ ul li a {
     color: #0e131f;
     margin-left: 28%;
     -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: #ff00db;
+    -webkit-text-stroke-color: var(--clr-primary);
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-thickness: 0.5px;
@@ -250,7 +252,8 @@ ul li a {
   }
   .contact-btn:hover {
     background-color: var(--clr-primary);
-    box-shadow: 0 0 87px #ff00db, 0 0 20px #ff00db, 0 0 21px #ff00db;
+    box-shadow: 0 0 87px var(--clr-primary), 0 0 20px,
+      0 0 21px var(--clr-primary);
   }
 
   .grid-footer {
