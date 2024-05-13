@@ -45,7 +45,7 @@ My building started taking a direction I really liked. I worked more intuitively
 ## <u> :watch: 11-12 May 2024 </u>
 
 I worked on improving the version I have by testing media queries on different viewports. <br>
-<b>Bonus: </b> I will give myself bonus points for publishing to github.:wink:
+<b>Bonus: </b> I will give myself bonus points for publishing to github. :wink:
 
 ## <u> :watch: 13 May 2024 </u>
 
